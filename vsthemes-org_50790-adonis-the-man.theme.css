@@ -1,0 +1,56 @@
+/**
+ * @name Adonis - The Man
+ * @author Saiyenmam Certified#0851
+ * @version 2.0.0
+ * @description Display your picture of choice with adjustable blur and brightness. Dark theme is required
+ * @source https://github.com/DiscordStyles/FrostedGlass
+ * @server https://discord.gg/djcPtAHrUE
+ * @youtube https://www.youtube.com/channel/UCi6bnGupN4NACMmwx1UMlpw
+ * @twitch https://www.twitch.tv/saiyenmam
+ *
+*/
+@import url('https://discordstyles.github.io/FrostedGlass/dist/FrostedGlass.css');
+@import url('https://discordstyles.github.io/Addons/windows-titlebar.css');
+@import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css');
+:root {
+  --background-image: url('https://cdn.discordapp.com/attachments/827244562279563335/957784157948346378/iu.png');
+  --background-image-blur: 5px;
+  --background-image-size: cover;
+  --background-image-position: center;
+  --popout-modal-image: transparent;
+  --popout-modal-blur: 3px;
+  --popout-modal-size: cover;
+  --popout-modal-position: center;
+  --home-button-image: url('https://cdn.discordapp.com/attachments/827244562279563335/957784157663162418/iu.png');
+  --home-button-size: 100%;
+  --home-button-position: center;
+  --serverlist-brightness: .5;
+  --left-brightness: 0.45;
+  --middle-brightness: 0.4;
+  --right-brightness: .1;
+  --popout-modal-brightness: .7;
+  --gradient-primary: 145, 0, 0;
+  --gradient-secondary: 224, 0, 0;
+  --link-colour: #FFFFFF;
+  --scrollbar-colour: rgb(145, 0, 0);
+  --gradient-direction: 180deg;
+  --tint-colour: 255,51,159;
+  --tint-brightness: 0;
+  --font: Whitney;
+  --window-padding: 0px;
+  --window-roundness: 0px;
+  --show-gift-gif-buttons: block;
+  --update-notice-1: none;
+  --rs-small-spacing: 0px;
+  --rs-medium-spacing: 0px;
+  --rs-large-spacing: 2px;
+  --rs-small-width: 2.5px;
+  --rs-medium-width: 2.5px;
+  --rs-large-width: 2px;
+  --rs-avatar-shape: 50%;
+  --rs-online-color: rgb(170, 45, 45);
+  --rs-idle-color: #8f6723;
+  --rs-dnd-color: #f04747;
+  --rs-offline-color: #1a69ca;
+  --rs-streaming-color: #643da7;
+}
